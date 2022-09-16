@@ -1,6 +1,6 @@
 (( ${+commands[istioctl]} || ${+commands[asdf]} && ${+functions[_direnv_hook]} )) && () {
 
-  local command=${commands[istioctl]:-"$(${commands[asdf]} which kn 2> /dev/null)"}
+  local command=${commands[istioctl]:-"$(${commands[asdf]} which istioctl 2> /dev/null)"}
   [[ -z $command ]] && return 1
 
   local compfile=$1/functions/_istioctl
