@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/joke/zim-istioctl/compare/v1.0.1...v1.1.0) (2022-09-17)
+
+
+### Features
+
+* check dumpfile after completion update ([4973744](https://github.com/joke/zim-istioctl/commit/49737446171714364f5ccf6b475a62bc9ac60060))
+
 ### [1.0.1](https://github.com/joke/zim-istioctl/compare/v1.0.0...v1.0.1) (2022-09-16)
 
 
