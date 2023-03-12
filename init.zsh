@@ -6,6 +6,6 @@
   local compfile=$1/functions/_istioctl
   if [[ ! -e $compfile || $compfile -ot $command ]]; then
     $command completion zsh >| $compfile
-    print -u2 -PR "* Detected a new version 'istioctl'. Regenerated completions.
+    print -u2 -PR "* Detected a new version 'istioctl'. Regenerated completions."
   fi
 } ${0:h}
