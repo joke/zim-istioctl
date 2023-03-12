@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/joke/zim-istioctl/compare/v1.1.0...v1.1.1) (2023-03-12)
+
+
+### Bug Fixes
+
+* new version detection message ([a099214](https://github.com/joke/zim-istioctl/commit/a09921406fb51f87c938ae763f60bd04fde1e83d))
+
 ## [1.1.0](https://github.com/joke/zim-istioctl/compare/v1.0.1...v1.1.0) (2022-09-17)
 
 
